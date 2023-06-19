@@ -49,7 +49,7 @@ Follow the instructions below to get this project up and running on your local m
 
 1. Clone this repository:
     ```
-    git clone https://github.com/your-username/django-user-app.git
+    git clone https://github.com/mpeterit/django-rest-user-app.git
     ```
 2. Navigate to the project directory:
     ```
