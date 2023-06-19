@@ -75,7 +75,7 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
         password = validated_data.get('password')
         if password:
             instance.set_password(password)
-        instance.save()  # CAN EMAIL BE CHANGED LIKE THIS? MAYBE USE SUPER.UPDATE() Aswell??
+        instance.save()
 
         return instance
 
