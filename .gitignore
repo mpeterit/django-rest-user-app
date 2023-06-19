@@ -1,0 +1,19 @@
+# Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Database files
+*.sqlite3
+
+# Django files
+media
+
+# Environment files
+.env
+.venv/
+
+# Other files
+.DS_Store
+.idea
