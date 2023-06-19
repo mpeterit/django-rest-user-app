@@ -58,6 +58,7 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
         user.save()
 
         user_profile_serializer = self.fields['user_profile']
+        user_profile_data['user'] = user
         user_profile_serializer.create(user_profile_data)
 
         return user
