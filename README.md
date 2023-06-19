@@ -72,10 +72,11 @@ Follow the instructions below to get this project up and running on your local m
 
 After you have the server running, you can interact with the API:
 
-1. **Register a new user**: Make a POST request to `http://127.0.0.1:8000/users/` with the email, password, password2,
+1. **Register a new user**: Make a POST request to `http://127.0.0.1:8000/user/user` with the email, password,
+   password2,
    and
    user_profile data.
-2. **Update a user profile**: Make a PUT request to `http://127.0.0.1:8000/users/<user-id>/` with the new user data.
+2. **Update a user profile**: Make a PUT request to `http://127.0.0.1:8000/user/user/<user-id>/` with the new user data.
 
 The source code contains detailed comments explaining each function and class, serving as a guide for customizing the
 code to your needs.
